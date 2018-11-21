@@ -1,4 +1,4 @@
-class CreatePost < ActiveRecord::Migration[5.1]
+class CreatePost < ActiveRecord::Base
   def change
     create_table :posts do |t|
       t.string :name
